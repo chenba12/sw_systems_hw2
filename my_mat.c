@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 #include <math.h>
 
 #define MatrixSize 10
@@ -7,7 +6,6 @@
 void checkPaths();
 
 int matrix[MatrixSize][MatrixSize];
-int infinity = INT_MAX;
 
 
 void initMatrix() {
